@@ -1,8 +1,18 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { projects } from '../data/projects';
+import { useState } from 'react';
 
 const Projects = () => {
+  const [expandedProjects, setExpandedProjects] = useState({});
+
+  const toggleTechnologies = (projectId) => {
+    setExpandedProjects(prev => ({
+      ...prev,
+      [projectId]: !prev[projectId]
+    }));
+  };
+
   return (
     <section id="projects" className="min-h-screen bg-secondary py-20 px-4">
       <div className="max-w-6xl mx-auto">
@@ -28,15 +38,15 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ y: -10, transition: { duration: 0.7 } }}
-              className="bg-primary rounded-lg overflow-hidden border border-accent/20 hover:border-accent/50 hover:shadow-xl hover:shadow-accent/20 flex flex-col"
+              className="group bg-primary rounded-lg overflow-hidden border border-accent/20 hover:border-accent/50 hover:shadow-xl hover:shadow-accent/20 flex flex-col"
             >
               {/* Project Image */}
-              <div className="h-48 bg-secondary/50 flex items-center justify-center overflow-hidden">
+              <div className="h-48 bg-secondary/50 flex items-center justify-center overflow-hidden relative">
                 {project.image ? (
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     onError={(e) => {
                       e.target.style.display = 'none';
                       e.target.parentElement.innerHTML = `<div class="text-accent text-6xl">💻</div>`;
@@ -59,7 +69,7 @@ const Projects = () => {
 
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.slice(0, 4).map((tech, idx) => (
+                  {(expandedProjects[project.id] ? project.technologies : project.technologies.slice(0, 4)).map((tech, idx) => (
                     <span
                       key={idx}
                       className="text-xs px-2 py-1 bg-accent/10 text-accent rounded border border-accent/30"
@@ -68,9 +78,14 @@ const Projects = () => {
                     </span>
                   ))}
                   {project.technologies.length > 4 && (
-                    <span className="text-xs px-2 py-1 text-textSecondary">
-                      +{project.technologies.length - 4} more
-                    </span>
+                    <button
+                      onClick={() => toggleTechnologies(project.id)}
+                      className="text-xs px-2 py-1 text-textSecondary hover:text-accent transition-colors cursor-pointer"
+                    >
+                      {expandedProjects[project.id] 
+                        ? 'Show less' 
+                        : `+${project.technologies.length - 4} more`}
+                    </button>
                   )}
                 </div>
 

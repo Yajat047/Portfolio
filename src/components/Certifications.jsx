@@ -25,10 +25,10 @@ const Certifications = () => {
               key={cert.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              // transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
-              className="bg-secondary p-6 rounded-lg border border-accent/20 hover:border-accent/50 transition-all duration-300 hover:shadow-lg hover:shadow-accent/20"
+              whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+              className="bg-secondary p-6 rounded-lg border border-accent/20 hover:border-accent/50 transition-all duration-0.7 hover:shadow-lg hover:shadow-accent/20"
             >
               <div className="flex items-start gap-4">
                 <motion.div
@@ -40,15 +40,26 @@ const Certifications = () => {
 
                 <div className="flex-grow">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-textPrimary">
-                      {cert.title}
-                    </h3>
+                    {cert.credentialUrl ? (
+                      <a
+                        href={cert.credentialUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xl font-bold text-textPrimary hover:text-accent transition-colors"
+                      >
+                        {cert.title}
+                      </a>
+                    ) : (
+                      <h3 className="text-xl font-bold text-textPrimary">
+                        {cert.title}
+                      </h3>
+                    )}
                     {cert.credentialUrl && (
                       <a
                         href={cert.credentialUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-accent hover:text-textPrimary transition-colors"
+                        className="text-accent hover:text-textPrimary transition-colors flex-shrink-0 ml-2"
                       >
                         <FaExternalLinkAlt size={16} />
                       </a>

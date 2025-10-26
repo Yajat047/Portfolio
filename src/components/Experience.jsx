@@ -41,11 +41,11 @@ const Experience = () => {
                 </div>
               </div>
 
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-3 mb-6">
                 {exp.description.map((item, idx) => (
-                  <li key={idx} className="text-textSecondary flex items-start">
-                    <span className="text-accent mr-3 mt-1">▹</span>
-                    <span>{item}</span>
+                  <li key={idx} className="text-textSecondary flex gap-3 items-start">
+                    <span className="text-accent flex-shrink-0">▹</span>
+                    <span className="flex-1">{item}</span>
                   </li>
                 ))}
               </ul>

@@ -139,6 +139,79 @@ Edit `src/data/education.js` to add educational background.
 
 Edit `src/data/certifications.js` to add your certifications.
 
+## 🎨 Color Schemes
+
+The portfolio comes with **9 pre-configured color schemes**. To change the theme:
+
+1. Open `tailwind.config.js`
+2. Comment out the active theme
+3. Uncomment your preferred theme
+
+### Available Themes:
+
+1. **🟣 Purple & Blue** (Default) - Modern, vibrant purple
+   ```javascript
+   primary: '#0f0e17'
+   secondary: '#1a1926'
+   accent: '#a786ff'
+   ```
+
+2. **🔵 Navy & Teal** - Professional, developer-focused
+   ```javascript
+   primary: '#0a192f'
+   secondary: '#112240'
+   accent: '#64ffda'
+   ```
+
+3. **🟠 Orange & Dark** - Bold, energetic orange accents
+   ```javascript
+   primary: '#1a1a2e'
+   secondary: '#16213e'
+   accent: '#ff6700'
+   ```
+
+4. **🔴 Red & Black** - Striking, high-contrast red
+   ```javascript
+   primary: '#0d0d0d'
+   secondary: '#1a1a1a'
+   accent: '#ff0055'
+   ```
+
+5. **🟢 Green & Dark** (Matrix Style) - Hacker/terminal aesthetic
+   ```javascript
+   primary: '#0d1117'
+   secondary: '#161b22'
+   accent: '#39ff14'
+   ```
+
+6. **💙 Blue & Gold** - Elegant, premium look
+   ```javascript
+   primary: '#0c1226'
+   secondary: '#1a2332'
+   accent: '#ffc107'
+   ```
+
+7. **🌸 Pink & Purple** - Creative, artistic vibe
+   ```javascript
+   primary: '#1a0b2e'
+   secondary: '#2d1b4e'
+   accent: '#ff6ec7'
+   ```
+
+8. **🌊 Ocean Blue** - Cool, calming ocean theme
+   ```javascript
+   primary: '#001f3f'
+   secondary: '#003459'
+   accent: '#00d9ff'
+   ```
+
+9. **🌙 Midnight Purple** - Deep, mysterious purple
+   ```javascript
+   primary: '#170a1c'
+   secondary: '#2d1b3d'
+   accent: '#c77dff'
+   ```
+
 ## 📦 Build for Production
 
 ```bash
