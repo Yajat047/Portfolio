@@ -1,0 +1,56 @@
+export const projects = [
+  {
+    id: 1,
+    title: "E-Healthcare Management System",
+    description: "MERN stack application with Python ML integration for disease prediction. Features include patient management, appointment scheduling, and ML-powered diagnosis assistance.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Python", "Machine Learning"],
+    githubUrl: "https://github.com/Yajat047/IP-Healthcare",
+    liveUrl: "", // Add if deployed
+    image: "/projects/healthcare.png", // Add your project images to public/projects/
+  },
+  {
+    id: 2,
+    title: "Techware Store",
+    description: "Full-featured e-commerce platform with secure payment integration using PayPal Braintree. Includes product catalog, shopping cart, and order management.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Braintree"],
+    githubUrl: "https://github.com/Yajat047/fse-project",
+    liveUrl: "https://fse-project-one.vercel.app/",
+    image: "/projects/techware.png",
+  },
+  {
+    id: 3,
+    title: "Wine Quality Classifier",
+    description: "Supervised machine learning model for predicting wine quality based on chemical properties. Achieved high accuracy using various ML algorithms.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+    githubUrl: "https://github.com/Yajat047/aiml_wine_quality",
+    liveUrl: "",
+    image: "/projects/wine.png",
+  },
+  {
+    id: 4,
+    title: "Get Linked",
+    description: "MERN-based community platform for networking and collaboration. Features include user profiles, posts, messaging, and real-time notifications.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
+    githubUrl: "https://github.com/Yajat047/Community-Platform",
+    liveUrl: "",
+    image: "/projects/getlinked.png",
+  },
+  {
+    id: 5,
+    title: "Cafe Management System",
+    description: "Web-based reservation and ordering system for cafes. Features table booking, menu management, and order tracking.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    githubUrl: "https://github.com/Yajat047/cafemanagement",
+    liveUrl: "",
+    image: "/projects/cafe.png",
+  },
+  {
+    id: 6,
+    title: "Spacious Furniture Marketplace",
+    description: "Modern marketplace application for furniture shopping with advanced filtering and search capabilities.",
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+    githubUrl: "https://github.com/Yajat047/thespacious",
+    liveUrl: "",
+    image: "/projects/spacious.png",
+  },
+];
