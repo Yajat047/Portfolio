@@ -1,7 +1,7 @@
 export const certifications = [
   {
     id: 1,
-    title: "AI Enterprise Workflow",
+    title: "IBM AI Enterprise Workflow",
     issuer: "IBM",
     date: "August 2025",
     credentialId: "1Q2JSE6CLKPI",
@@ -10,7 +10,7 @@ export const certifications = [
   },
   {
     id: 2,
-    title: "Deep Learning with PyTorch, Keras and Tensorflow",
+    title: "IBM Deep Learning with PyTorch, Keras and Tensorflow",
     issuer: "IBM",
     date: "August 2025",
     credentialId: "B37PYVMNWIIS",
@@ -19,7 +19,7 @@ export const certifications = [
   },
   {
     id: 3,
-    title: "Generative AI for Data Analysts",
+    title: "IBM Generative AI for Data Analysts",
     issuer: "IBM",
     date: "July 2025",
     credentialId: "T619QD2XGF72",
@@ -28,7 +28,7 @@ export const certifications = [
   },
   {
     id: 4,
-    title: "AI Foundations for Everyone",
+    title: "IBM AI Foundations for Everyone",
     issuer: "IBM",
     date: "March 2025",
     credentialId: "W6PIA23WLD21",
@@ -37,7 +37,7 @@ export const certifications = [
   },
   {
     id: 5,
-    title: "Applied DevOps Engineering",
+    title: "IBM Applied DevOps Engineering",
     issuer: "IBM",
     date: "March 2025",
     credentialId: "S4WUFWNV9ND0",
@@ -46,7 +46,7 @@ export const certifications = [
   },
   {
     id: 6,
-    title: "Network Technician Career Path",
+    title: "Cisco Network Technician Career Path",
     issuer: "Cisco",
     date: "January 2025",
     credentialId: "",
