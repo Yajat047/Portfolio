@@ -5,7 +5,7 @@ export const certifications = [
     issuer: "IBM",
     date: "August 2025",
     credentialId: "1Q2JSE6CLKPI",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/1Q2JSE6CLKPI",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/1Q2JSE6CLKPI",
     skills: ["Artificial Intelligence (AI)"],
   },
   {
@@ -14,7 +14,7 @@ export const certifications = [
     issuer: "IBM",
     date: "August 2025",
     credentialId: "B37PYVMNWIIS",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/B37PYVMNWIIS",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/B37PYVMNWIIS",
     skills: ["Artificial Intelligence (AI)"],
   },
   {
@@ -23,7 +23,7 @@ export const certifications = [
     issuer: "IBM",
     date: "July 2025",
     credentialId: "T619QD2XGF72",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/T619QD2XGF72",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/T619QD2XGF72",
     skills: ["Artificial Intelligence (AI)", "Generative AI"],
   },
   {
@@ -41,7 +41,7 @@ export const certifications = [
     issuer: "IBM",
     date: "March 2025",
     credentialId: "S4WUFWNV9ND0",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/S4WUFWNV9ND0",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/S4WUFWNV9ND0",
     skills: ["DevOps", "Cloud Computing", "Git", "GitHub", "Continuous Integration and Continuous Delivery (CICD)"],
   },
   {
