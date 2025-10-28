@@ -31,7 +31,7 @@ export const techStack = {
     { name: "MongoDB", icon: "SiMongodb", color: "#47A248", library: "si" },
     { name: "MySQL", icon: "SiMysql", color: "#4479A1", library: "si" },
     { name: "PostgreSQL", icon: "SiPostgresql", color: "#4169E1", library: "si" },
-    // { name: "Firebase", icon: "SiFirebase", color: "#FFCA28" },
+    { name: "Firebase", icon: "SiFirebase", color: "#FFCA28" },
   ],
   
   tools: [
