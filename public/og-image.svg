@@ -2,12 +2,12 @@
   <!-- Background with gradient -->
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0e17;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a1926;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0a192f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#112240;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#a786ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#7c5cdb;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#64ffda;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#42ffde;stop-opacity:1" />
     </linearGradient>
   </defs>
   
@@ -18,32 +18,32 @@
   <rect width="1200" height="4" fill="url(#accentGradient)"/>
   
   <!-- Left accent shapes -->
-  <circle cx="100" cy="100" r="50" fill="#a786ff" opacity="0.1"/>
-  <circle cx="150" cy="150" r="30" fill="#a786ff" opacity="0.05"/>
+  <circle cx="100" cy="100" r="50" fill="#64ffda" opacity="0.1"/>
+  <circle cx="150" cy="150" r="30" fill="#64ffda" opacity="0.05"/>
   
   <!-- Right accent shapes -->
-  <circle cx="1100" cy="530" r="60" fill="#a786ff" opacity="0.1"/>
-  <circle cx="1050" cy="480" r="35" fill="#a786ff" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="60" fill="#64ffda" opacity="0.1"/>
+  <circle cx="1050" cy="480" r="35" fill="#64ffda" opacity="0.05"/>
   
   <!-- Main content container -->
   <g>
     <!-- Name -->
-    <text x="600" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    <text x="600" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#ccd6f6">
       Yajat Dureja
     </text>
     
     <!-- Title with accent -->
-    <text x="600" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="600" text-anchor="middle" fill="#a786ff">
+    <text x="600" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="600" text-anchor="middle" fill="#64ffda">
       Full Stack Developer
     </text>
     
     <!-- Subtitle -->
-    <text x="600" y="340" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#b8b8b8">
+    <text x="600" y="340" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#a7a9be">
       React • Node.js • Cloud • DevOps
     </text>
     
     <!-- Tagline -->
-    <text x="600" y="410" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#888888">
+    <text x="600" y="410" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#8892b0">
       Building innovative solutions with modern technology
     </text>
     
@@ -51,7 +51,7 @@
     <rect x="300" y="450" width="600" height="3" fill="url(#accentGradient)"/>
     
     <!-- Contact info -->
-    <text x="600" y="520" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#a786ff">
+    <text x="600" y="520" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#64ffda">
       github.com/Yajat047 • linkedin.com/in/yajat47
     </text>
   </g>
