@@ -59,7 +59,7 @@ export const projects = [
     id: 7,
     title: "Musicology",
     description: "Dance Courses Demo Website",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["React", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Yajat047/musicology-fee",
     liveUrl: "https://musicology-fee.vercel.app/",
     image: "/projects/musicology.png",
