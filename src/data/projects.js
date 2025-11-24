@@ -4,7 +4,7 @@ export const projects = [
     title: "Techware Store",
     description: "Full-featured e-commerce platform with secure payment integration using PayPal Braintree. Includes product catalog, shopping cart, and order management.",
     technologies: ["React", "Node.js", "MongoDB", "PayPal Braintree", "Express"],
-    githubUrl: "https://github.com/Yajat047/fse-project",
+    githubUrl: "https://github.com/Yajat047/techware",
     liveUrl: "https://fse-project-one.vercel.app/",
     image: "/projects/techware.png",
   }, 
