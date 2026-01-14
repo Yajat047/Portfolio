@@ -1,4 +1,9 @@
+import { image } from "framer-motion/client";
+
 export const projects = [
+  // Freelance Projects
+  
+  // Personal Projects
   {
     id: 1,
     title: "Techware Store",
@@ -7,6 +12,7 @@ export const projects = [
     githubUrl: "https://github.com/Yajat047/techware",
     liveUrl: "https://fse-project-one.vercel.app/",
     image: "/projects/techware.png",
+    category: "personal"
   }, 
   {
     id: 2,
@@ -16,7 +22,8 @@ export const projects = [
     githubUrl: "https://github.com/Yajat047/Community-Platform",
     liveUrl: "https://getlinked.yajat.dev/",
     image: "/projects/getlinked.png",
-  }, 
+    category: "personal"
+  },
   {
     id: 3,
     title: "E-Healthcare Management System",
@@ -24,7 +31,8 @@ export const projects = [
     technologies: ["React", "Node.js", "Flask/Python", "Machine Learning", "JavaScript", "MongoDB", "Express" ],
     githubUrl: "https://github.com/Yajat047/IP-Healthcare",
     liveUrl: "", 
-    image: "/projects/healthcare.png", 
+    image: "/projects/healthcare.png",
+    category: "personal"
   },
   
   {
@@ -35,6 +43,7 @@ export const projects = [
     githubUrl: "https://github.com/Yajat047/aiml_wine_quality",
     liveUrl: "",
     image: "/projects/wine.png",
+    category: "personal"
   },
   {
     id: 5,
@@ -44,6 +53,7 @@ export const projects = [
     githubUrl: "https://github.com/Yajat047/CodeMate-Project",
     liveUrl: "https://codemate.yajat.dev/",
     image: "/projects/codemate.png",
+    category: "personal"
   },
 
   {
@@ -54,6 +64,7 @@ export const projects = [
     githubUrl: "https://github.com/Yajat047/cafemanagement",
     liveUrl: "https://cafemanagement-ashen.vercel.app/",
     image: "/projects/cafe.png",
+    category: "personal"
   },
   {
     id: 7,
@@ -63,5 +74,26 @@ export const projects = [
     githubUrl: "https://github.com/Yajat047/musicology-fee",
     liveUrl: "https://musicology-fee.vercel.app/",
     image: "/projects/musicology.png",
+    category: "personal"
   },
+  {
+    id: 8,
+    title: "York Street Homes",
+    description: "Website for Professional Cleaning and maintenance services in London",
+    technologies: ["React", "NodeJs","MongoDB", "Express","JavaScript","Cloudflare", "Linux"],
+    // githubUrl: "",
+    liveUrl: "https://yorkstreethomes.com/",
+    image: "/projects/yorkstreethomes.png",
+    category: "freelance"
+  },
+  {
+    id: 9,
+    title: "Advait Soluition",
+    description: "Website for BricsCAD software retailer in India",
+    technologies: ["React", "NodeJs","MongoDB", "Express","JavaScript","Cloudflare", "Linux"],
+    // githubUrl: "",
+    liveUrl: "https://advaitsolution.com/",
+    image: "/projects/advaitsolution.png",
+    category: "freelance"
+  }
 ];
