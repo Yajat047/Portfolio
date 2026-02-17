@@ -18,7 +18,7 @@ A modern, animated portfolio website built with React, Vite, Tailwind CSS, and F
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework:** React 19.1.1
+- **Frontend Framework:** React 19.2.3
 - **Build Tool:** Vite 7.1.12
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
