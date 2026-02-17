@@ -73,6 +73,15 @@ export const certifications = [
   },
   {
     id: 9,
+    title: "Software Product Management",
+    issuer: "University of Alberta",
+    date: "February 2026",
+    credentialId: "IEAI6XTJIF0X",
+    credentialUrl: "https://coursera.org/verify/specialization/IEAI6XTJIF0X",
+    skills: ["Software Product Management"],
+  },
+  {
+    id: 10,
     title: "Inspect Rich Documents with Gemini Multimodality and Multimodal RAG",
     issuer: "Google",
     date: "September 2024",
@@ -81,7 +90,7 @@ export const certifications = [
     skills: ["Artificial Intelligence (AI)", "Machine Learning"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Operations MLOps for Generative AI",
     issuer: "Google",
     date: "September 2024",
@@ -90,7 +99,7 @@ export const certifications = [
     skills: ["Artificial Intelligence (AI)"],
   },
   {
-    id: 11,
+    id: 12,
     title: "Prompt Design in Vertex AI",
     issuer: "Google",
     date: "September 2024",
@@ -99,7 +108,7 @@ export const certifications = [
     skills: ["Artificial Intelligence (AI)"],
   },
   {
-    id: 12,
+    id: 13,
     title: "Health Informatics Specialization",
     issuer: "Johns Hopkins University",
     date: "April 2024",
@@ -108,7 +117,7 @@ export const certifications = [
     skills: [],
   },
   {
-    id: 13,
+    id: 14,
     title: "Cybersecurity",
     issuer: "Cisco Networking Academy",
     date: "March 2024",
@@ -117,7 +126,7 @@ export const certifications = [
     skills: ["Cybersecurity"],
   },
   {
-    id: 14,
+    id: 15,
     title: "Connect and Protect Networks and Network Security",
     issuer: "Google",
     date: "February 2024",
@@ -126,7 +135,7 @@ export const certifications = [
     skills: ["Cybersecurity", "Computer Networking"],
   },
   {
-    id: 15,
+    id: 16,
     title: "Foundations of Cybersecurity",
     issuer: "Google",
     date: "February 2024",
@@ -135,7 +144,7 @@ export const certifications = [
     skills: ["Cybersecurity"],
   },
   {
-    id: 16,
+    id: 17,
     title: "Play It Safe: Manage Security Risks",
     issuer: "Google",
     date: "February 2024",
@@ -144,7 +153,7 @@ export const certifications = [
     skills: ["Cybersecurity"],
   },
   {
-    id: 17,
+    id: 18,
     title: "Tools of the Trade: Linux and SQL",
     issuer: "Google",
     date: "February 2024",
@@ -153,7 +162,7 @@ export const certifications = [
     skills: ["Cybersecurity", "SQL", "Linux"],
   },
   {
-    id: 18,
+    id: 19,
     title: "Leading People and Teams Specialization",
     issuer: "University of Michigan",
     date: "October 2023",
