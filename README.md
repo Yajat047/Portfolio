@@ -3,7 +3,7 @@
 A modern, animated portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-success)
-![React](https://img.shields.io/badge/React-19.1.1-61DAFB?logo=react)
+![React](https://img.shields.io/badge/React-19.2.3-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7.1.12-646CFF?logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?logo=tailwind-css)
 
