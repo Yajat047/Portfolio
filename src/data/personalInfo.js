@@ -6,7 +6,7 @@ export const personalInfo = {
   github: "https://github.com/Yajat047",
   linkedin: "https://linkedin.com/in/yajat47",
   instagram: "https://instagram.com/yajat.47", // Update with your actual Instagram
-  resumeUrl: "https://drive.google.com/file/d/1OavTm24HDbux7oshjP8cXM9DYSHDIaXP/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1U4nfs0osimUjGKTCC_rfKi5M5QDdCRhb/view?usp=sharing",
   description: `▹ Full Stack Developer Intern at Coexivity
 ▹ Passionate about building full-stack applications and exploring Cloud technologies
 ▹ Actively seeking new opportunities to contribute and grow
