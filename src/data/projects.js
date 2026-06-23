@@ -2,7 +2,7 @@ import { image } from "framer-motion/client";
 
 export const projects = [
   // Freelance Projects
-  
+
   // Personal Projects
   {
     id: 1,
@@ -12,10 +12,20 @@ export const projects = [
     liveUrl: "https://studexly.app/",
     image: "/projects/studexly.png",
     category: "personal"
-  }, 
+  },
 
   {
     id: 2,
+    title: "DiecastVault",
+    description: "Collection management platform for diecast car collectors — catalogue models with brand, scale, condition and value, track set completion, log trades, and view collection analytics.",
+    technologies: ["Next.js", "MongoDB", "Cloudflare"],
+    liveUrl: "https://diecast.yajat.dev/",
+    image: "/projects/diecastvault.png",
+    category: "personal"
+  },
+
+  {
+    id: 3,
     title: "Techware Store",
     description: "Full-featured e-commerce platform with secure payment integration using PayPal Braintree. Includes product catalog, shopping cart, and order management.",
     technologies: ["React", "Node.js", "MongoDB", "PayPal Braintree", "Express"],
@@ -23,9 +33,9 @@ export const projects = [
     liveUrl: "https://fse-project-one.vercel.app/",
     image: "/projects/techware.png",
     category: "personal"
-  }, 
+  },
   {
-    id: 3,
+    id: 4,
     title: "Get Linked",
     description: "MERN-based community platform for networking and collaboration. Features include user profiles, posts, messaging, and real-time notifications.",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
@@ -35,18 +45,18 @@ export const projects = [
     category: "personal"
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Healthcare Management System",
     description: "MERN stack application with Python ML integration for disease prediction. Features include patient management, appointment scheduling, and ML-powered diagnosis assistance.",
     technologies: ["React", "Node.js", "Flask/Python", "Machine Learning", "JavaScript", "MongoDB", "Express" ],
     githubUrl: "https://github.com/Yajat047/IP-Healthcare",
-    liveUrl: "", 
+    liveUrl: "",
     image: "/projects/healthcare.png",
     category: "personal"
   },
-  
+
   {
-    id: 5,
+    id: 6,
     title: "Wine Quality Classifier",
     description: "Supervised machine learning model for predicting wine quality based on chemical properties. Achieved high accuracy using various ML algorithms.",
     technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
@@ -56,7 +66,7 @@ export const projects = [
     category: "personal"
   },
   {
-    id: 6,
+    id: 7,
     title: "CodeMate (Under Development)",
     description: "Real-time collaborative coding platform with voice support.",
     technologies: ["React", "Node.js", "JavaScript","PeerJS/WebRTC", "Socket.io",  "MongoDB", "Express"],
@@ -67,7 +77,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Cafe Management System",
     description: "Web-based reservation and ordering system for cafes. Features table booking, menu management, and order tracking.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -77,7 +87,7 @@ export const projects = [
     category: "personal"
   },
   {
-    id: 8,
+    id: 9,
     title: "Musicology",
     description: "Dance Courses Demo Website",
     technologies: ["React", "CSS", "JavaScript"],
@@ -87,7 +97,7 @@ export const projects = [
     category: "personal"
   },
   {
-    id: 9,
+    id: 10,
     title: "York Street Homes",
     description: "Website for Professional Cleaning and maintenance services in London",
     technologies: ["React", "NodeJS","MongoDB", "Express","JavaScript","Cloudflare", "Linux"],
@@ -97,7 +107,7 @@ export const projects = [
     category: "freelance"
   },
   {
-    id: 10,
+    id: 11,
     title: "Advait Soluition",
     description: "Website for BricsCAD software retailer in India",
     technologies: ["React", "NodeJS","MongoDB", "Express","JavaScript","Cloudflare", "Linux"],

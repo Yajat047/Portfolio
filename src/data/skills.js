@@ -13,6 +13,7 @@ export const techStack = {
   
   frontend: [
     { name: "React", icon: "SiReact", color: "#61DAFB", library: "si" },
+    { name: "Next.js", icon: "SiNextdotjs", color: "#ffffffff", library: "si" },
     { name: "Vite", icon: "SiVite", color: "#646CFF", library: "si" },
     // { name: "Redux", icon: "SiRedux", color: "#764ABC" },
     { name: "Tailwind CSS (Basic)", icon: "SiTailwindcss", color: "#06B6D4", library: "si" },
@@ -57,7 +58,7 @@ export const techStack = {
 // Flat array for simpler display
 export const allSkills = [
   "JavaScript", "Python", "Java", "C++", "SQL",
-  "React", "Node.js", "Express", "Django", "Flask",
+  "React", "Next.js", "Node.js", "Express", "Django", "Flask",
   "MongoDB", "MySQL", "PostgreSQL", "Firebase",
   "HTML5", "CSS3", "Tailwind CSS", "Bootstrap",
   "Git", "GitHub", "Docker", "AWS", "Linux",
