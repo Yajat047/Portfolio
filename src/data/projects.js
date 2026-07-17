@@ -115,5 +115,14 @@ export const projects = [
     liveUrl: "https://advaitsolution.com/",
     image: "/projects/advaitsolution.png",
     category: "freelance"
+  },
+  {
+    id: 12,
+    title: "Panshul",
+    description: "Website for a the leading Solidworks and SigmaNest software retailer in India",
+    technologies: ["React", "NodeJS", "MongoDB", "Express", "JavaScript", "Cloudflare", "Linux"],
+    liveUrl: "https://panshul.co.in/",
+    image: "/projects/panshul.png",
+    category: "freelance"
   }
 ];
